@@ -1,46 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-bs-theme="dark">
+<html lang="pt-br" data-bs-theme="dark"> <!-- Define idioma e ativa tema dark do Bootstrap -->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
     <title>Login - Rapido e Seguro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Importação do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="d-flex flex-column min-vh-100">
+
+<body class="d-flex flex-column min-vh-100"> <!-- Mantém o footer no final da página -->
+
+    <!-- Cabeçalho -->
     <header class="bg-dark text-light mb-3">
-  <div class="container d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+            <img src="logo.png" class="img-fluid me-3 rounded-circle mt-3 mb-2" style="max-width: 70px;">
+            <span>Rápido & Seguro</span>
+        </div>
+    </header>
     
-    <img src="logo.png" class="img-fluid me-3 rounded-circle mt-3 mb-2" style="max-width: 70px;">
-
-    <span>Rápido & Seguro</span>
-
-  </div>
-</header>
-    
+    <!-- Centraliza o card na tela -->
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="card p-4" style="width: 100%; max-width: 400px;">
+            
             <h2 class="text-center mb-4">Login</h2>
-            <form>
+
+            <form method="post">
+
+                <!-- Campo de email -->
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" placeholder="Digite seu email">
                 </div>
+
+                <!-- Campo de senha -->
                 <div class="mb-3">
                     <label for="password" class="form-label">Senha</label>
                     <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
-                    
                 </div>
+
+                <!-- Botão de envio do formulário -->
                 <button type="submit" class="btn btn-primary w-100">Entrar</button>
 
                 <span class="d-block mt-3" style="cursor: pointer; color: #0d6efd;">Esqueci Minha Senha</span>
 
-                <span>Não Tem Uma Conta? <a href="#" style="color: #0d6efd;">Crie Uma</a></span>
+                <span>Não Tem Uma Conta? <a href="#">Crie Uma</a></span>
             </form>
         </div>
     </div>
 
-    <footer class="bg-dark text-light text-center mt-5">
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light text-center mt-auto">
         <p class="mb-3">&copy; 2026 Rapido e Seguro. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
