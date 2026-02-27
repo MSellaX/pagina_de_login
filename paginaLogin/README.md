@@ -1,7 +1,14 @@
-João Pedro:
+# 📌 Projeto
 
-criou a logo, ajudou a dar ideias, verificou erros e pesquisou as duvidas nos codigos
+Pagina de login desenvolvida de forma simples usando bootstrap
 
-Miguel Sella:
+## 👨‍💻 Integrantes e Contribuições
 
-promagou a pagina, desenvolveu o codigo
+### João Pedro
+- Criou a logo do projeto  
+- Ajudou com ideias e sugestões  
+- Verificou erros no código  
+
+### Miguel Sella
+- Programou a página  
+- Desenvolveu o código do projeto  
